@@ -14,9 +14,9 @@ document.getElementById('computer').innerHTML = "Il punteggio del Computer: " + 
 
 
 if (player1 > cpu) {
-  document.getElementById('partita').innerHTML = "Ha vinto player1!"
+  document.getElementById('partita').innerHTML = "Ha vinto Giocatore!"
 } else if (player1 < cpu) {
-  document.getElementById('partita').innerHTML = " Ha vinto il computer!"
+  document.getElementById('partita').innerHTML = " Ha vinto il Computer!"
 } else {
   document.getElementById('partita').innerHTML = "Pareggio!"
 }

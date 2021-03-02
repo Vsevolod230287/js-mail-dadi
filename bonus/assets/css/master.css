@@ -7,3 +7,7 @@
 body {
   background-color: red;
 }
+
+div.card-body {
+  text-align: center;
+}

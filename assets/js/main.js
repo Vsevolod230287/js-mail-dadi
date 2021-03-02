@@ -15,5 +15,5 @@ for (i = 0; i < listMail.length; i++) {
 if(soldier) {
   document.getElementById('accesso').innerHTML = "La sua Mail e nella lista, quindi può accedere.";
 } else {
-  document.getElementById('accesso').innerHTML = "La Mail inserita non è nella lista, accesso negato.";
+  document.getElementById('accesso').innerHTML = "Accesso Negato. La Mail inserita non è nella lista. ";
 }
