@@ -1,8 +1,8 @@
 // Chiedi all’utente la sua email,
 // controlla che sia nella lista di chi può accedere,
 // stampa un messaggio appropriato sull’esito del controllo.
-var userMail = prompt("Inserisci la tua mail.")
 var listMail = ["cerne@gmail.com", "seba@hotmail.it", "conte@gmail.com", "max@virgilio.it"];
+var userMail = prompt("Inserisci la tua mail.");
 
 var soldier = false;
 
